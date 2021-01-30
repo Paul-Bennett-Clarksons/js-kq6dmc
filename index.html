@@ -12,28 +12,26 @@
 
 
 <body>
-    <div data-role="appbar" data-expand-point="md">
-    <a href="#" class="brand no-hover">
-        <span style="width: 55px;" class="p-2 border bd-dark border-radius">
-            m<sup>4</sup>
-        </span>
-    </a>
+<div class="pos-relative z-dropdown app-bar app-bar-expand" data-role="appbar" data-expand-point="md" data-role-appbar="true"><button type="button" class="hamburger menu-down dark hidden"><span class="line"></span><span class="line"></span><span class="line"></span></button>
+                        <a href="#" class="brand no-hover">
+                            <span style="width: 40px; height: 40px; line-height: 40px" class="text-center border bd-darkGray border-radius">m<sup>4</sup></span>
+                        </a>
 
-    <ul class="app-bar-menu">
-        <li><a href="#">Home</a></li>
-        <li>
-            <a href="#" class="dropdown-toggle">Products</a>
-            <ul class="d-menu" data-role="dropdown">
-                <li><a href="#">Windows 10</a></li>
-                <li><a href="#">Office 365</a></li>
-                <li class="divider bg-lightGray"></li>
-                <li><a href="#">Skype</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contacts</a></li>
-    </ul>
-</div>
+                        <ul class="app-bar-menu collapsed" style="">
+                            <li><a href="#">Home</a></li>
+                            <li>
+                                <a href="#" class="dropdown-toggle">Products</a>
+                                <ul class="d-menu" data-role="dropdown" data-role-dropdown="true" style="display: none;">
+                                    <li><a href="#">Windows 10</a></li>
+                                    <li><a href="#">Office 365</a></li>
+                                    <li class="divider bg-lightGray"></li>
+                                    <li><a href="#">Skype</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
 
 
 <div style="padding: 50px">
